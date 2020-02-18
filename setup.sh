@@ -2,6 +2,9 @@
 
 echo "Setting up your Mac..."
 
+# Ask for the administrator password upfront
+sudo -v
+
 # Install brew and packages
 source brew.sh
 
@@ -13,6 +16,3 @@ source tools.sh
 
 # Restore dotfiles and configurations
 source dotfiles.sh
-
-# Update App Store apps
-softwareupdate -i -a

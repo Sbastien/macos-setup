@@ -4,18 +4,25 @@ Restore a default MacOS setup by using some scripts and [Mackup](https://github.
 
 ## Installing
 
-  - Connect to iCloud on your Mac (For your Mackup folder)
-  - Enable Apps from anywhere
-    ```
-    sudo spctl --master-disable
-    ```
-    And go to  `` -> `System preferences` -> `Security & privacy` -> `General`
+- Connect to iCloud on your Mac (For your Mackup folder)
+- Install Command Line Tools
 
-    Then check  `Anywhere`
-
-    ![image text](https://user-images.githubusercontent.com/1894680/74762865-fc45a100-527e-11ea-831f-b3d7dcb536e2.png)
-
-  - Run the `setup.sh` file
+    ```shell
+    xcode-select --install
+    sudo xcodebuild -license accept # Accept Xcode license
+    sudo xcodebuild -runFirstLaunch # Simulate Xcode first run
     ```
-    source setup.sh
+
+- Update App Store apps
+
+    ```shell
+    softwareupdate -i -a
     ```
+
+- Run the `setup.sh` file
+
+    ```shell
+    ./setup.sh
+    ```
+
+- Add dotfiles : <https://github.com/Sbastien/dotfiles>
