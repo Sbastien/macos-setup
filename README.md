@@ -23,3 +23,4 @@ Restore a default MacOS setup by using some scripts and [Mackup](https://github.
     ```
     ./setup.sh
     ```
+  - Add dotfiles : https://github.com/Sbastien/dotfiles
