@@ -15,7 +15,11 @@ Restore a default MacOS setup by using some scripts and [Mackup](https://github.
 
     ![image text](https://user-images.githubusercontent.com/1894680/74762865-fc45a100-527e-11ea-831f-b3d7dcb536e2.png)
 
+  - Install Command Line Tools
+    ```
+    xcode-select --install
+    ```
   - Run the `setup.sh` file
     ```
-    source setup.sh
+    ./setup.sh
     ```

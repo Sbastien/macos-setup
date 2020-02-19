@@ -1,5 +1,10 @@
 cask_args appdir: "/Applications"
 
+brew "mas"
+mas "Xcode", id: 497799835
+mas "Spark - Email App by Readdle", id: 1176895641
+mas "Magnet", id: 441258766
+
 tap "homebrew/cask-fonts"
 tap "heroku/brew"
 
@@ -22,6 +27,7 @@ cask "micro-snitch"
 cask "slack"
 cask "dashlane"
 
+brew "yarn", args: ["--ignore-dependencies"]
 brew "rbenv"
 brew "tmate"
 brew "heroku"
@@ -31,6 +37,7 @@ brew "bash"
 brew "zsh"
 brew "wget"
 brew "bat"
+brew "redis"
 
 brew "coreutils"
 brew "findutils"
