@@ -17,6 +17,9 @@ source tools.sh
 # Restore dotfiles and configurations
 source dotfiles.sh
 
+# Set macos configuration
+source macos.sh
+
 # Finalize the installation
 source final.sh
 
