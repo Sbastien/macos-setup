@@ -59,6 +59,16 @@ defaults write com.apple.systemuiserver menuExtras -array \
   "/System/Library/CoreServices/Menu Extras/Volume.menu"
 
 ###############################################################################
+# Energy saving                                                               #
+###############################################################################
+
+# Sleep the display after 30 minutes
+sudo pmset -a displaysleep 30
+
+# Disable machine sleep while charging
+sudo pmset -c sleep 0
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
