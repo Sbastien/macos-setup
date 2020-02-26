@@ -12,7 +12,7 @@ brew tap homebrew/bundle
 brew install mas
 
 # Install Xcode outside of Brewfile because we need to accet the license
-echo '\e[93mInstall Xcode, may take a while...'
+echo 'Install Xcode, may take a while...'
 mas install 497799835 # Insall Xcode
 sudo xcodebuild -license accept # Accept Xcode license
 sudo xcodebuild -runFirstLaunch # Simulate Xcode first run

@@ -23,6 +23,7 @@ cask "little-snitch"
 cask "micro-snitch"
 cask "slack"
 cask "dashlane"
+cask "onyx"
 
 brew "yarn", args: ["ignore-dependencies"]
 brew "rbenv"
