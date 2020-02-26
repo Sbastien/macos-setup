@@ -9,7 +9,6 @@ tap "homebrew/cask-fonts"
 tap "heroku/brew"
 
 cask "font-inconsolata"
-cask "dropbox"
 cask "gas-mask"
 cask "iterm2"
 cask "visual-studio-code"
