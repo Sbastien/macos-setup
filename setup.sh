@@ -20,8 +20,5 @@ source dotfiles.sh
 # Set macos configuration
 source macos.sh
 
-# Finalize the installation
-source final.sh
-
 # Update App Store apps
 softwareupdate -i -a

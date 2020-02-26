@@ -15,6 +15,7 @@ brew install mas
 echo '\e[93mInstall Xcode, may take a while...'
 mas install 497799835 # Insall Xcode
 sudo xcodebuild -license accept # Accept Xcode license
+sudo xcodebuild -runFirstLaunch # Simulate Xcode first run
 
 brew bundle # See Brewfile
 brew cleanup -s
