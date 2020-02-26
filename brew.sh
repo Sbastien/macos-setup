@@ -17,4 +17,5 @@ mas install 497799835 # Insall Xcode
 sudo xcodebuild -license accept # Accept Xcode license
 
 brew bundle # See Brewfile
-brew cleanup
+brew cleanup -s
+rm -rf "$(brew --cache)" # Remove brew downloads
