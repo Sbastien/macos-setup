@@ -27,7 +27,7 @@ cask "micro-snitch"
 cask "slack"
 cask "dashlane"
 
-brew "yarn", args: ["--ignore-dependencies"]
+brew "yarn", args: ["ignore-dependencies"]
 brew "rbenv"
 brew "tmate"
 brew "heroku"
