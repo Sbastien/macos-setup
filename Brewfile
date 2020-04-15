@@ -26,6 +26,7 @@ cask "dashlane"
 cask "onyx"
 cask "virtualbox"
 
+brew "docker-machine"
 brew "yarn", args: ["ignore-dependencies"]
 brew "rbenv"
 brew "tmate"
