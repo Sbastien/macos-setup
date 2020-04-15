@@ -24,6 +24,7 @@ cask "micro-snitch"
 cask "slack"
 cask "dashlane"
 cask "onyx"
+cask "virtualbox"
 
 brew "yarn", args: ["ignore-dependencies"]
 brew "rbenv"
